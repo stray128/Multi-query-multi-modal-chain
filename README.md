@@ -53,7 +53,12 @@
     ```
 
 ## How to Use
-Here is a video demo on usage of the application after setting up the environment as mentioned above: [Video Demo](https://drive.google.com/file/d/1nlfhX9eIif6VKsDvsO37XvT0W8c_wHmX/view?usp=sharing)
+Here is a video demo on usage of the application after setting up the environment as mentioned above: [Video Demo](https://drive.google.com/file/d/1nlfhX9eIif6VKsDvsO37XvT0W8c_wHmX/view?usp=sharing).
+
+- Since there is document layout analysis with YOLO, the time taken to index a document can be long.
+- For a document of 21 pages, it took around 150 seconds.
+- You can skip directly to 3 minutes to see the document getting completely processed.
+- At the 5th minute, all the questions are processed.
 
 1. **Open the Application:**
     - Open your web browser and navigate to `http://localhost:8000/static/multi_query.html`.
@@ -81,7 +86,14 @@ Here is a video demo on usage of the application after setting up the environmen
     - On the right side of the screen, you will see the pdf containing the context rendered in the browser.
     - After 0.5s of the pdf being rendered, the pdf will auto scroll to the page containing the context.
     - After 1-1.5 s of the pdf being rendered, the contexts used for the response generation will be highlighted in the pdf.
-6. **Example Attachment:**
+
+6. **Download Results:**
+    - After processing your queries, you can download the results.
+    - Click on the download icon next to the "Clear Session" button, and a JSON file containing the results will be downloaded.
+    - Here is a reference file for the downloaded results: [Reference Results](./query_results.json)
+
+
+7. **Example Attachment:**
     - Here is an example of how the application interface looks when a PDF is uploaded and processed:
     ![Example Attachment](./screenshots/app_interface.png)
 
