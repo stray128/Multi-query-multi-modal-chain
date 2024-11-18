@@ -53,6 +53,8 @@
     ```
 
 ## How to Use
+Here is a video demo on usage of the application after setting up the environment as mentioned above: [Video Demo](https://drive.google.com/file/d/1nlfhX9eIif6VKsDvsO37XvT0W8c_wHmX/view?usp=sharing)
+
 1. **Open the Application:**
     - Open your web browser and navigate to `http://localhost:8000/static/multi_query.html`.
     - you will see the application interface.
@@ -81,7 +83,7 @@
     - After 1-1.5 s of the pdf being rendered, the contexts used for the response generation will be highlighted in the pdf.
 6. **Example Attachment:**
     - Here is an example of how the application interface looks when a PDF is uploaded and processed:
-    ![Example Attachment](./screenshots/example_attachment.png)
+    ![Example Attachment](./screenshots/app_interface.png)
 
 ## Here is a good example of how the application works
 
